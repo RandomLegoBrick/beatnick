@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ruslan+Display|Niconne">
+        <style>
+            #beatnickhimself {
+                width: 30vw;
+                margin-left: 3vw;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                
+                background: linear-gradient(white, #1111);
+            }
+
+            #bg {
+                position: absolute;
+                width: 100vw;
+                z-index: -1;
+                top: 7vw;
+            }
+
+            h1,h2,h3 {
+                font-family: "Ruslan Display", fantasy;
+            }
+            
+            #title {
+                position: absolute;
+                left: 35vw;
+                top: 11vw;
+                transform: rotate(-2deg);
+                font-size: 6vw;
+                
+                color: white;
+                text-shadow: 5px 5px rgb(247, 55, 55);
+            }
+            
+            .card-img {
+                width: 20vw;
+                border-radius: 50%;
+                float: left;
+                margin: 20px;
+            }
+
+            .card {
+                background: rgb(216, 197, 144);
+                width: 60vw;
+                padding: 15px;
+                margin-left: 6vw;
+                border-radius: 15px;
+                box-shadow: 5px 5px rgb(247, 55, 55), 5px 5px 10px grey;
+                height: calc(20vw + 35px);
+                margin-bottom: 70px;
+            }
+            
+            .card-h2 {
+                margin-top: 3vw;
+                font-size: 3vw;
+                color: white;
+                text-shadow: 0 3px black;
+                margin-left: 30px
+            }
+
+            p {
+                font-family: "Niconne", serif;
+                font-size: 3vw;
+                margin-left: 20px;
+            }
+
+            .ad {
+                position: absolute;
+                right: 5vw;
+                background: lightgrey;
+                border-radius: 5px;
+                text-align: center;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                top:40vw;
+            }
+
+            .ad img {
+                width: 20vw;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <img src="assets/background.svg" id="bg">
+        <img src="assets/beatnick.svg" id="beatnickhimself">
+
+        <h1 id="title">Say Hello<br>to the BEATNICK!</h1>
+
+        <div class="card">
+            <img class="card-img" src="assets/big_bad_john.png">
+            <h2 class="card-h2">Big Bad John <br>~ Prime Minister</h2>
+            <p>"A fine yeoman. Petite in stature compared to me."</p>
+        </div>
+        
+        <div class="card">
+            <img class="card-img"  src="assets/blackhatbilly.svg">
+            <h2 class="card-h2">Black Hat Billy<br>~ Not A Robber Barron</h2>
+            <p>"A dear member of scociety."</p>
+        </div>
+
+        <div class="card">
+            <img class="card-img" style="float: right;" src="assets/ze_red_barron.png">
+            <h2 class="card-h2">Ze Red Barron <br>~ Expert Pilot</h2>
+            <p>"Ahead of my Time"</p>
+        </div>
+
+        
+
+        <div class="ad">
+            Brought to you By
+            <br>
+            <img src="assets/ad1.png">
+        </div>
+    </body>
+</html>
